@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--background-light);
+    color: var(--font-color-dark);
+}
+
+.cta-button {
+    background-color: var(--background-dark);
+    color: var(--font-color-light);
+}

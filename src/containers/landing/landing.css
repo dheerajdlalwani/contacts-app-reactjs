@@ -1,0 +1,53 @@
+.landing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    height: 75vh;
+    margin: 0 2vw;
+    padding: 2vh 2vw;
+    /* border: solid red 2px; */
+}
+
+.landing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    /* border: solid red 2px; */
+}
+
+.landing-tagline {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.landing-sub-text {
+    font-size: 2em;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    /* border: solid red 2px; */
+}
+
+.logo-image {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    animation: rotation 7s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

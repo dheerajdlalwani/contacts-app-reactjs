@@ -1,16 +1,11 @@
-import React, { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import "./styles.css";
-
+import React from "react";
+import ReactDom from 'react-dom';
+import "./index.css";
 import App from "./App";
-import Fluff from "./Fluff"
 
-const root = createRoot(document.getElementById("root"));
-root.render(
-  <StrictMode>
-    <Fluff />
-    <div className="main-game">
-      <App />
-    </div>
-  </StrictMode>
+ReactDom.render(
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>,
+	document.querySelector('body')
 );

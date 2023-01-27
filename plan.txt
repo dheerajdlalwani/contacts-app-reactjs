@@ -1,0 +1,30 @@
+- favicon
+- logo
+- og:image stuff
+
+const texts = [
+      { lang: "en", text: "The Cloud for \n Doers & Dreamers." },
+      { lang: "de", text: "Die Cloud für \n Macher und Träumer." },
+      { lang: "jp", text: "メーカーと夢想家のためのクラウド。" },
+      { lang: "in", text: "Cloud untuk para pembuat dan pemimpi." },
+      { lang: "ms", text: "Platform awan untuk pencipta dan pemimpi." },
+      { lang: "es", text: "La nube para creadores y soñadores." },
+      { lang: "hi", text: "Cloud निर्माताओं और सपने देखने वालों के लिए।" },
+      { lang: "uk", text: "Хмара для творців і мрійників." },
+      { lang: "te", text: "క్లౌడ్ ఆవిష్కర్తల కొరకు మరియు కళల సాకారానికీ." },
+      { lang: "fr", text: "Le cloud pour les créateurs." },
+      { lang: "ru", text: "Облако для творцов и мечтателей." },
+      { lang: "zh", text: "为创造者和梦想者而生的云计算。" },
+      { lang: "ne", text: "Cloud निर्माताहरु र सपना देख्नेहरुको लागी।" },
+      { lang: "ro", text: "Cloud-ul pentru creatori și visători." },
+      { lang: "pt", text: "Plataforma para criadores e sonhadores." },
+      { lang: "mr", text: "स्वप्नांना वास्तवात आणाऱ्यांचे ठिकाण." },
+      { lang: "sv", text: "Molnet för alla skapare och drömmare." },
+      { lang: "lt", text: "Debesis kūrėjams ir svajotojams." },
+      { lang: "af", text: "Wolkverwerking vir doeners and dromers." },
+      { lang: "pa", text: "ਕਰਨ ਵਾਲਿਆਂ ਅਤੇ ਸੁਪਨੇ ਲੈਣ ਵਾਲਿਆਂ ਲਈ ਕਲਾਉਡ." },
+      { lang: "ar", text: "المنصة السحابية لمبرمجي المستقبل" },
+      { lang: "it", text: "Il Cloud per i creatori e sognatori." },
+      { lang: "hu", text: "Felhő az álmodozóknak és alkotóknak."},
+      { lang: "nl", text: "De Cloud voor Dromers & Doeners."},
+    ];
